@@ -1,0 +1,63 @@
+
+  
+  .body {
+   
+      background-color: #837960;
+      background-image: linear-gradient(to bottom, transparent, #837960), url("/templates/background.jpg");
+      background-repeat: no-repeat;
+  }
+  
+  .nav {
+
+    margin-top: 10px;
+    display: flex;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  .main-content {
+    margin-top: 100px;
+  }
+  .youtube-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  
+  .youtube-video {
+    width: 100%;
+    max-width: 720px;
+    height: 405px;
+    border-radius: 20px;
+    justify-content: center;
+
+  }
+  
+  .card-container {
+    margin-top: 20px;
+  }
+
+  .card-container p {
+    font-size: small;
+  }
+
+  .material-icons {
+    font-size: 24px;
+    vertical-align: middle;
+  }
+
+  .custom-carousel-control-prev .carousel-control-prev-icon,
+  .custom-carousel-control-next .carousel-control-next-icon {
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(93deg) brightness(103%) contrast(103%);
+  }
+  
+  .tittle1{
+    margin-top: 60px;
+    font-family: 'Sofia', sans-serif;
+  }
+
+  .tittle2{
+    font-family: 'Sofia', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
